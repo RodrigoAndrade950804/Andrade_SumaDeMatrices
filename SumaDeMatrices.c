@@ -9,11 +9,7 @@ int main()
     int n;
     int m;
     int n2;
-    int m2;
-    int Matriz[n][m];
-    int Matriz2[n][m];
-    int Matriz3[n][m];   
-    //Entradas 
+    int m2;  
     printf("Ingrese filas matriz 1: ");
     scanf("%d", &n);
     printf("Ingrese columnas matriz 1: ");
@@ -23,6 +19,9 @@ int main()
     printf("Ingrese columnas matriz 2: ");
     scanf("%d", &m2);
     srand(time(NULL));
+    int Matriz[n][m];
+    int Matriz2[n2][m2];
+    int Matriz3[n][m]; 
     printf("Matriz1:");
     //Sentencias
     for (int i = 0; i < n; i++)
