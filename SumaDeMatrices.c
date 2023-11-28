@@ -46,10 +46,11 @@ int main()
     printf("\nMatrizResultante: \n");
     for (int i = 0; i < n; i++)
     {
+        printf("\n");
         for (int j = 0; j < m; j++)
         {
             Matriz3[i][j] = Matriz[i][j] + Matriz2[i][j];
-            printf("\n La suma de matrices es:%d", Matriz3[i][j]);
+            printf("%d \t", Matriz3[i][j]);
         }
     }    
     return 0;
